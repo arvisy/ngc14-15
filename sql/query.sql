@@ -20,6 +20,6 @@ CREATE TABLE pilihan (
     pilihanId INT AUTO_INCREMENT PRIMARY KEY,
     kandidatId INT NOT NULL,
     pemilihId INT NOT NULL,
-    FOREIGN KEY (kandidatID) REFERENCES kandidat(kandidatID),
-    FOREIGN KEY (pemilihID) REFERENCES pemilih(pemilihID)
+    FOREIGN KEY (kandidatId) REFERENCES kandidat(kandidatId),
+    FOREIGN KEY (pemilihId) REFERENCES pemilih(pemilihId)
 );
